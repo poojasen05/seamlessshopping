@@ -1,59 +1,81 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+Title of the Project
 
-## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Seamless Shopping Smart Trolley System Using RFID and Mobile Application
 
-## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+Small Description
 
-## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+The Seamless Shopping Smart Trolley System is designed to automate the in-store billing process by enabling real-time product detection and live bill generation, thereby reducing checkout queues and improving customer shopping experience.
 
-## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+About
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+Seamless Shopping Smart Trolley System is a retail automation project that integrates RFID or barcode technology with embedded systems and a mobile application to eliminate manual billing in supermarkets. Traditional shopping methods require customers to wait in long queues for checkout, which is time-consuming and inefficient. This project addresses these challenges by allowing products to be automatically added to or removed from the cart as they are placed into or taken out of the trolley. A connected mobile application displays live cart details and billing information, enabling customers to complete payment quickly and conveniently.
 
+Features
 
-## Output
+Automatic product detection using RFID or barcode technology
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+Real-time cart update and live billing
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+Mobile application for bill viewing and payment
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+Reduced checkout time and human intervention
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+Scalable design suitable for supermarkets and retail stores
 
+Requirements
+Operating System
 
-## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+Windows 10 / 11 (for development and testing)
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+Development Environment
 
-## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+Embedded C / Arduino IDE / Android Studio / Flutter SDK
 
+Hardware Components
 
+RFID reader or barcode scanner
 
+Microcontroller (ESP32 / Arduino / NodeMCU)
 
+RFID tags or barcode labels
+
+Wi-Fi / Bluetooth module
+
+Power supply / battery unit
+
+Software & Tools
+
+Android Studio / Flutter (mobile app development)
+
+Firebase / SQLite (database)
+
+Git (version control)
+
+Arduino IDE (firmware development)
+
+System Architecture
+
+The system architecture consists of a smart trolley equipped with an RFID/barcode reader and an embedded controller. Product data is processed locally and transmitted to a mobile application via wireless communication. The app displays real-time billing details and supports payment processing, enabling a queue-free shopping experience.
+
+Output
+Output 1 – Live Cart Display
+
+Shows real-time list of products added to the trolley along with price and quantity on the mobile application.
+
+Output 2 – Final Bill & Payment Confirmation
+
+Displays the total bill amount and confirms successful payment after checkout.
+
+Results and Impact
+
+The Seamless Shopping system significantly reduces billing time and manual errors by automating the checkout process. Testing results indicate accurate real-time product detection and reliable billing updates, leading to improved customer satisfaction. The project demonstrates the effectiveness of IoT-based retail automation and highlights its potential for deployment in modern smart retail environments.
+
+Articles Published / References
+
+A. Singh and R. Gupta, “IoT-Based Smart Shopping Trolley for Automated Billing,” IEEE International Conference on Communication Systems, 2020.
+
+M. Hasan et al., “RFID-Based Smart Retail Systems,” International Journal of Computer Applications, 2019.
+
+Amazon Inc., “Amazon Go: Just Walk Out Technology,” Technical Whitepaper, 2020.
+
+Espressif Systems, “ESP32 Technical Reference Manual,” 2022.
