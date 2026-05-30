@@ -81,7 +81,7 @@ was built on real transaction data collected from the RFID system.
 ![Revenue per Session](analytics/chart4_sessions.png)
 
 ### Analytics Notebook
-[View Full Analysis](analytics/seamless_analysis.ipynb)
+[View Full Analysis](analytics/Seamless_shopping.ipynb)
 
 ---
 
