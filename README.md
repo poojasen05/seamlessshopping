@@ -1,81 +1,92 @@
-## Title of the Project
+# Seamless Shopping Smart Trolley System
+### IoT + RFID + Mobile App + Data Analytics
 
-Seamless Shopping Smart Trolley System Using RFID and Mobile Application
-
-## Small Description
-
-The Seamless Shopping Smart Trolley System is designed to automate the in-store billing process by enabling real-time product detection and live bill generation, thereby reducing checkout queues and improving customer shopping experience.
+---
 
 ## About
+Seamless Shopping is a complete retail automation system that integrates 
+RFID hardware, an embedded ESP32 microcontroller, Firebase database, and 
+a Flutter mobile application to eliminate manual billing in supermarkets. 
+Products are automatically detected as they are added to or removed from 
+the smart trolley — the mobile app updates the bill in real time and 
+supports digital payment without any checkout queue.
 
-Seamless Shopping Smart Trolley System is a retail automation project that integrates RFID or barcode technology with embedded systems and a mobile application to eliminate manual billing in supermarkets. Traditional shopping methods require customers to wait in long queues for checkout, which is time-consuming and inefficient. This project addresses these challenges by allowing products to be automatically added to or removed from the cart as they are placed into or taken out of the trolley. A connected mobile application displays live cart details and billing information, enabling customers to complete payment quickly and conveniently.
+---
 
-## Features
+## What Makes This Unique
+This is not just a software project. It includes:
+- Real working hardware — ESP32 + MFRC522 RFID reader on breadboard
+- Real RFID tags mapped to actual products
+- Live Firebase database sync
+- Flutter mobile app with login, cart, payment, and order history
+- Full data analytics pipeline on real transaction data
 
-Automatic product detection using RFID or barcode technology
+---
 
-Real-time cart update and live billing
+## Hardware Built
+- Microcontroller: ESP32 DEVKIT V1
+- RFID Reader: MFRC522
+- Communication: Wi-Fi (Firebase sync)
+- Products mapped: Rice, Milk, Bread, Eggs, Oil
+- Real RFID scans sent to Firebase in real time
 
-Mobile application for bill viewing and payment
+![Hardware Setup](img/hardware_setup.jpg)
 
-Reduced checkout time and human intervention
+---
 
-Scalable design suitable for supermarkets and retail stores
+## Mobile App Features
+- Login and signup
+- QR code trolley pairing
+- Live cart with real-time billing
+- UPI, Card, and Cash payment options
+- Order history
+- Chef AI Helper for recipe suggestions
 
-## Requirements
-## Operating System
+![App Screenshot](img/app_screenshot.jpg)
 
-Windows 10 / 11 (for development and testing)
+---
 
-## Development Environment
+## Tech Stack
 
-Embedded C / Arduino IDE / Android Studio / Flutter SDK
+| Layer | Technology |
+|---|---|
+| Hardware | ESP32, MFRC522 RFID, Arduino IDE |
+| Firmware | Embedded C |
+| Database | Firebase Realtime Database |
+| Mobile App | Flutter, Dart |
+| Analytics | Python, Pandas, Matplotlib, Excel |
 
-## Hardware Components
+---
 
-RFID reader or barcode scanner
+## Data Analytics Layer
+As an extension of the hardware and app, a complete analytics pipeline 
+was built on real transaction data collected from the RFID system.
 
-Microcontroller (ESP32 / Arduino / NodeMCU)
+### What Was Analyzed
+- 10 real shopping sessions
+- 34 RFID transaction records
+- 5 product categories
+- Total revenue: ₹4,600
 
-RFID tags or barcode labels
+### Key Findings
+1. **Oil** generates highest revenue — ₹1,320 (28.7% of total) despite being 3rd in quantity
+2. **Rice** is most frequently purchased — 18 units across all 10 sessions
+3. **UPI** dominates payment — 45% of total revenue (₹2,070)
+4. **Average cart value** — ₹460 per session
 
-Wi-Fi / Bluetooth module
+### Visualizations
+![Revenue by Product](analytics/chart1_revenue.png)
+![Units Sold](analytics/chart2_quantity.png)
+![Payment Method](analytics/chart3_payment.png)
+![Revenue per Session](analytics/chart4_sessions.png)
 
-Power supply / battery unit
+### Analytics Notebook
+[View Full Analysis](analytics/seamless_analysis.ipynb)
 
-## Software & Tools
+---
 
-Android Studio / Flutter (mobile app development)
-
-Firebase / SQLite (database)
-
-Git (version control)
-
-Arduino IDE (firmware development)
-
-## System Architecture
-
-The system architecture consists of a smart trolley equipped with an RFID/barcode reader and an embedded controller. Product data is processed locally and transmitted to a mobile application via wireless communication. The app displays real-time billing details and supports payment processing, enabling a queue-free shopping experience.
-
-## Output
-## Output 1 – Live Cart Display
-
-Shows real-time list of products added to the trolley along with price and quantity on the mobile application.
-
-## Output 2 – Final Bill & Payment Confirmation
-
-Displays the total bill amount and confirms successful payment after checkout.
-
-## Results and Impact
-
-The Seamless Shopping system significantly reduces billing time and manual errors by automating the checkout process. Testing results indicate accurate real-time product detection and reliable billing updates, leading to improved customer satisfaction. The project demonstrates the effectiveness of IoT-based retail automation and highlights its potential for deployment in modern smart retail environments.
-
-## Articles Published / References
-
-A. Singh and R. Gupta, “IoT-Based Smart Shopping Trolley for Automated Billing,” IEEE International Conference on Communication Systems, 2020.
-
-M. Hasan et al., “RFID-Based Smart Retail Systems,” International Journal of Computer Applications, 2019.
-
-Amazon Inc., “Amazon Go: Just Walk Out Technology,” Technical Whitepaper, 2020.
-
-Espressif Systems, “ESP32 Technical Reference Manual,” 2022.
+## References
+- A. Singh and R. Gupta, "IoT-Based Smart Shopping Trolley," IEEE, 2020
+- M. Hasan et al., "RFID-Based Smart Retail Systems," IJCA, 2019
+- Amazon Inc., "Amazon Go: Just Walk Out Technology," 2020
+- Espressif Systems, "ESP32 Technical Reference Manual," 2022
