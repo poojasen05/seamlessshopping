@@ -47,6 +47,12 @@ This is not just a software project. It includes:
 
 
 ---
+## Live Demo
+
+https://www.youtube.com/watch?v=yCePffN1dmA
+
+> Click the image above to watch the live demo — real RFID card scanning 
+> updating cart and bill in real time on SmartKart mobile app.
 
 ## Tech Stack
 
