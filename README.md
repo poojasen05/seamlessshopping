@@ -30,7 +30,8 @@ This is not just a software project. It includes:
 - Products mapped: Rice, Milk, Bread, Eggs, Oil
 - Real RFID scans sent to Firebase in real time
 
-![Hardware Setup](img/hardware_setup.jpg)
+<img width="720" height="1600" alt="WhatsApp Image 2026-05-30 at 9 05 08 PM" src="https://github.com/user-attachments/assets/aab06621-2eaa-4c02-b58a-f7fedc579e4b" />
+
 
 ---
 
@@ -42,7 +43,8 @@ This is not just a software project. It includes:
 - Order history
 - Chef AI Helper for recipe suggestions
 
-![App Screenshot](img/app_screenshot.jpg)
+<img width="720" height="1600" alt="WhatsApp Image 2026-05-30 at 9 05 09 PM" src="https://github.com/user-attachments/assets/fdec9a45-e8e4-465a-bff1-e95f5b8e58d5" />
+
 
 ---
 
