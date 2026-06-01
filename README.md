@@ -89,7 +89,8 @@ was built on real transaction data collected from the RFID system.
 ![Revenue per Session](analytics/chart4_sessions.png)
 
 ### Analytics Notebook
-Seamless_shopping.ipynb
+[Seamless_shopping.ipynb](https://github.com/user-attachments/files/28458642/Seamless_shopping.ipynb)
+
 
 ---
 ### Powerbi-Dashboard
