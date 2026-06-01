@@ -92,6 +92,9 @@ was built on real transaction data collected from the RFID system.
 http://localhost:8888/notebooks/Seamless_shopping.ipynb
 
 ---
+### Powerbi-Dashboard
+<img width="1166" height="745" alt="image" src="https://github.com/user-attachments/assets/09b63c17-f6ab-4138-bf19-09388ff73f4a" />
+
 
 ## References
 - A. Singh and R. Gupta, "IoT-Based Smart Shopping Trolley," IEEE, 2020
