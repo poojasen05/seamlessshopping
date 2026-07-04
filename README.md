@@ -94,7 +94,8 @@ was built on real transaction data collected from the RFID system.
 
 ---
 ### Powerbi-Dashboard
-<img width="1166" height="745" alt="image" src="https://github.com/user-attachments/assets/09b63c17-f6ab-4138-bf19-09388ff73f4a" />
+
+<img width="506" height="287" alt="image" src="https://github.com/user-attachments/assets/3fa4ca82-185d-45e9-95e0-3da01d63358b" />
 
 
 ## References
